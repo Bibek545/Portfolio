@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    height: 100;
+}
+
+
+#home {
+    min-height: 50vh;
+}
+
+#projects {
+
+}
+.img-icon img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+  
+.img-icon img:hover {
+    transform: scale(1.1);
+  }
+  
