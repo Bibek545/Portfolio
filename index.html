@@ -6,15 +6,20 @@
 
     <!-- bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+   
+   
     <!-- css -->
     
     <link href="./style.css" rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
-        <section id="nav">
+        <section id="nav" class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary p-10">
                 <div class="container-fluid p-3 bg-danger">
                   <a class="navbar-brand ms-5"  href="#"><h1>Bibek Hamal</h1></a>
@@ -79,8 +84,13 @@
          </section>
 
          <!-- This is my skill section -->
-          <section id="skills">
-            <div class="img-icon">
+          <section id="skills" class="bg-info">
+            <div class="" >
+                <h1 class="text-center mt-5">Skills</h1>
+                <h5 class="text-center">I have hands-on experience with these technologies and tools, and continue to explore many more. <br /> My passion for learning keeps me constantly expanding my skill set.</h5>
+
+            </div>
+            <div class="img-icon gap-2 mt-5 d-flex flex-wrap justify-content-center">
                 <img src="./src/HTML 5.png" class="img-thumbnail" alt="Html">
                 <img src="./src/CSS3.png" class="img-thumbnail" alt="css">
                 <img src="./src/JS.png" class="img-thumbnail" alt="js">
@@ -95,6 +105,94 @@
             </div>
 
           </section>
+
+          <section></section>
+             <!-- contact section starts -->
+    <section class="contact py-5 p-5 m-5" id="contact">
+        <div class="heading text-center">
+          <small>Get in Touch</small>
+          <h3>Any Questions? Feel Free to Contact</h3>
+        </div>
+        <div class="row justify-content-evenly mt-5">
+          <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+            <div class="row justify-content-evenly">
+              <!-- <div class="col-1">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div> -->
+              <div class="col-11">
+                
+                <p> <i class="fa-solid fa-location-dot"> </i> Lidcombe, 2141, Australia</p>
+              </div>
+            </div>
+            <div class="row justify-content-evenly">
+              <!-- <div class="col-1">
+                <i class="bi bi-telephone-fill"></i>
+              </div> -->
+              <div class="col-11">
+                <p><i class="fa-solid fa-phone"></i> +61 123456789</p>
+              </div>
+            </div>
+            <div class="row justify-content-evenly">
+              <!-- <div class="col-1">
+                <i class="bi bi-send-fill"></i>
+              </div> -->
+              <div class="col-11">
+                <p><i class="fa-solid fa-envelope"></i> fullstackBibek@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+            <div class="contact-form">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Mobile No."
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill bg-warning">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section ends here -->
+  
+        <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+      <button
+        type="button"
+        class="btn btn-floating btn-lg rounded-pill z-index- bg-warning me-auto "
+        id="btn-back-to-top"
+      >
+      <i class="fa-solid fa-arrow-up"></i>
+      </button>
+  
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>

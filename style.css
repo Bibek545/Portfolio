@@ -2,13 +2,21 @@
     box-sizing: border-box;
     height: 100;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 
 #home {
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 #projects {
+    min-height: 50vh;
+
+}
+
+#skills {
+    min-height: 50vh;
 
 }
 .img-icon img{
