@@ -29,4 +29,33 @@ html {
 .img-icon img:hover {
     transform: scale(1.1);
   }
-  
+
+.arrow-up {
+    position: relative;
+  }
+
+.c-btn:hover {
+    background-color: black;
+    color: white;
+}
+#btn-back-to-top {
+    height: 80px;
+    width: 80px;
+    display: block;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 1.4 rem;
+  }
+
+footer {
+    min-height: 12vh;
+    background-color: aquamarine;
+}
+
+.fonts {
+    font-size: 30px;
+    text-align: center;
+
+}
+
