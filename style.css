@@ -2,6 +2,9 @@
     box-sizing: border-box;
     height: 100;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -41,8 +44,8 @@ html {
 
 /* introduction */
 .introduction {
-    margin: 70px;
-    padding: 70px;
+    margin:  100px 30px 100px;
+    padding: 10px 100px 30px 100px;
     text-align: center;
 }
 
@@ -63,6 +66,8 @@ html {
     background-color: black;
     color: white;
 }
+
+
 #btn-back-to-top {
     height: 80px;
     width: 80px;
