@@ -1,5 +1,5 @@
-
 import './App.css'
+import { icons } from './assets/icons';
 
 function App() {
 
@@ -46,7 +46,7 @@ function App() {
       <div className="home-section flex-column align-items-center ms-5">
         <div className="home-container d-flex justify-content-center pl">
           <div className="text-center py-5 bg-white">
-            <img src="./src/bibek.png" className="custom-img img-fluid" alt="bibek"/>
+            <img src={icons.bibek} className="custom-img img-fluid" alt="bibek"/>
             <p>Hi, Welcome to My Portfolio</p>
           </div>
         </div>
@@ -92,8 +92,8 @@ function App() {
              </div>
              <div className="row pt-2" >
                   <div className="skill-card col 4">
-                    <div className="card" style="width: 18rem;">
-                      <img src="./src/myDC.png" className="card-img-top" alt="myDC"/>
+                    <div className="card" style={{width: "18rem"}}>
+                      <img src={icons.myDC} className="card-img-top" alt="myDC"/>
                       <div className="card-body">
                         <h5 className="card-title">React Digital Clock</h5>
                         <p className="card-text" id="card1-text">Simple digital clock built with React using useEffect for real-time updates..</p>
@@ -104,8 +104,8 @@ function App() {
               </div>
               <div className="col 4">
                 <div className="skill-card">
-                  <div className="card" style="width: 18rem;">
-                    <img src="./src/NTDL.png" className="card-img-top" alt="..."/>
+                  <div className="card" style={{width: "18rem"}}>
+                    <img src={icons.ntdl}  className="card-img-top" alt="..."/>
                     <div className="card-body">
                       <h5 className="card-title">Not T0 Do List</h5>
                       <p className="card-text">Not to do list made using HTML,CSS,JS,REACT,BOOTSTRAP</p>
@@ -119,8 +119,8 @@ function App() {
 
             <div className="col 4">
               <div className="skill-card">
-                <div className="card" style="width: 18rem;">
-                  <img src="./src/calculator.png" className="card-img-top" alt="calculator"/>
+                <div className="card" style={{width: "18rem"}}>
+                  <img src={icons.calculator}  className="card-img-top" alt="calculator"/>
                   <div className="card-body">
                     <h5 className="card-title">Calculator</h5>
                     <p className="card-text">Simple calculator made using HTML,CSS,JS,BOOTSTRAP,REACT</p>
@@ -136,8 +136,8 @@ function App() {
 
             <div className="row pt-5" >
             <div className="skill-card col 4">
-              <div className="card" style="width: 18rem;">
-                <img src="./src/color-picker.png" className="card-img-top" alt="color picker"/>
+              <div className="card" style={{width: "18rem"}}>
+                <img src={icons.colorPicker}  className="card-img-top" alt="color picker"/>
                 <div className="card-body">
                   <h5 className="card-title">Color Selector</h5>
                   <p className="card-text">Simple color selector page made using REACT.</p>
@@ -148,8 +148,8 @@ function App() {
 
         <div className="col 4">
           <div className="skill-card">
-            <div className="card" style="width: 18rem;">
-              <img src="./src/movie world.png" className="card-img-top" alt="..."/>
+            <div className="card" style={{width: "18rem"}}>
+              <img src={icons.movieWorld}  className="card-img-top" alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Movie World</h5>
                 <p className="card-text">Simple movie browsing website</p>
@@ -162,8 +162,8 @@ function App() {
 
       <div className="col 4">
         <div className="skill-card">
-          <div className="card" style="width: 18rem;">
-            <img src="./src/quiz.png" className="card-img-top" alt="quiz"/>
+          <div className="card" style={{width: "18rem"}}>
+            <img src={icons.quiz}  className="card-img-top" alt="quiz"/>
             <div className="card-body">
               <h5 className="card-title">Quiz game</h5>
               <p className="card-text">A simple quiz game made using HTML,CSS, JS.</p>
@@ -189,16 +189,16 @@ function App() {
 
             </div>
             <div className="img-icon gap-2 mt-5 d-flex flex-wrap justify-content-center">
-                <img src="./src/HTML.png" className="img-thumbnail" alt="Html"/>
-                <img src="./src/CSS3.png" className="img-thumbnail" alt="css"/>
-                <img src="./src/JS.png" className="img-thumbnail" alt="js"/>
-                <img src="./src/REACT.png" className="img-thumbnail" alt="react"/>
-                <img src="./src/mongodb.png" className="img-thumbnail" alt="mongodb"/>
-                <img src="./src/nodeJs.png" className="img-thumbnail" alt="node"/>
-                <img src="./src/github.png" className="img-thumbnail" alt="github"/>
-                <img src="./src/expressJs.png" className="img-thumbnail" alt="express"/>
-                <img src="./src/java.png" className="img-thumbnail" alt="java"/>
-                <img src="./src/vsCode.png" className="img-thumbnail" alt="vs"/>
+                <img src={icons.html}  className="img-thumbnail" alt="Html"/>
+                <img src={icons.css}  className="img-thumbnail" alt="css"/>
+                <img src={icons.javascript}  className="img-thumbnail" alt="js"/>
+                <img src={icons.reactS}  className="img-thumbnail" alt="react"/>
+                <img src={icons.mongodb}  className="img-thumbnail" alt="mongodb"/>
+                <img src={icons.nodes}  className="img-thumbnail" alt="node"/>
+                <img src={icons.github}  className="img-thumbnail" alt="github"/>
+                <img src={icons.express}  className="img-thumbnail" alt="express"/>
+                <img src={icons.java}  className="img-thumbnail" alt="java"/>
+                <img src={icons.vsCode}  className="img-thumbnail" alt="vs"/>
             </div>
 
           </section>
