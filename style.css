@@ -25,7 +25,19 @@ html {
     object-fit: contain;
     transition: transform 0.3s ease;
 }
-  
+/* home img bibek */
+  .custom-img {
+  /* width: 100%; */
+  max-width: 300px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  border-bottom-left-radius:800px ;
+  border-bottom-right-radius: 800px ;
+  border-top-left-radius: 800px ;
+  border-top-right-radius:800px  ;
+
+}
+/* home img bibek */
 .img-icon img:hover {
     transform: scale(1.1);
   }
@@ -50,7 +62,7 @@ html {
 
 footer {
     min-height: 12vh;
-    background-color: aquamarine;
+
 }
 
 .fonts {

@@ -1,4 +1,4 @@
-alert("Welcome to my portfolio");
+// alert("Welcome to my portfolio");
 
 
-document.getElementById("card1-text").innerHTML = "BibeK Hamal"
+// document.getElementById("card1-text").innerHTML = "BibeK Hamal"
