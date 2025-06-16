@@ -38,6 +38,19 @@ html {
 
 }
 /* home img bibek */
+
+/* introduction */
+.introduction {
+    margin: 70px;
+    padding: 70px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+/* introduction */
 .img-icon img:hover {
     transform: scale(1.1);
   }
