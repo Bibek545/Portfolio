@@ -1,12 +1,14 @@
 import React from 'react';
-import { icons } from './assets/icons';
+import { icons } from './Icons';
+import Title from './Title';
 
 const Skills = () => {
   return (
     <div>
             <section id="skills" className="bg-white">
         <div className="">
-          <h1 className="text-center mt-5">Skills</h1>
+          <Title title="Skills"/>
+         
           <p className="text-center">
             I have hands-on experience with these technologies and tools, and
             continue to explore many more. <br /> My passion for learning keeps

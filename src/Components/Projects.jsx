@@ -1,14 +1,14 @@
 import React from 'react'
-import { icons } from './assets/icons'
+import { icons }  from './Icons'
+import Title from './Title'
 
 const Projects = () => {
   return (
     <div>
           <section id="projects">
         <div className="container">
-          <div className="text-center pt-3">
-            <h4>Here are my projects</h4>
-          </div>
+           <Title title="My projects"/>
+  
 
           <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
             {/* Project 1 */}

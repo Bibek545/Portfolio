@@ -1,13 +1,13 @@
 import './App.css'
-// import { icons } from './assets/icons';
+import { icons } from './Components/icons';
 import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from './NavBar';
-import Home from './Home';
-import Intro from './Intro';
-import Projects from './Projects';
-import Skills from './Skills';
-import Contact from './Contact';
-import Footer from './Footer';
+import NavBar from './Components/NavBar';
+import Home from './Components/Home';
+import Intro from './Components/Intro';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 function App() {

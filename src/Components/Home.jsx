@@ -1,5 +1,7 @@
 import React from 'react'
-import { icons } from './assets/icons'
+// import { icons }  from './Icons';
+import { icons }  from './Icons';
+
 
 const Home = () => {
   return (
