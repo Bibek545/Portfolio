@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    min-height: 40vh;
+}
+.img-fluid {
+  height: auto;
+}
+
+#projects {
+    min-height: 50vh;
+
+}
+
+#skills {
+    min-height: 50vh;
+
+}
+.img-icon img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+/* home img bibek */
+  .custom-img {
+  /* width: 100%; */
+  max-width: 300px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  border-bottom-left-radius:800px ;
+  border-bottom-right-radius: 800px ;
+  border-top-left-radius: 800px ;
+  border-top-right-radius:800px  ;
+
+}
+/* home img bibek */
+
+/* introduction */
+.introduction {
+    margin:  100px 30px 100px;
+    padding: 10px 100px 30px 100px;
+    text-align: center;
+}
+/* contact */
+/* .contact p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact form .form-control {
+  border-radius: 8px;
+} */
+/* contact */
+.btn.btn-warning:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* introduction */
+.img-icon img:hover {
+    transform: scale(1.1);
+  }
+
+.arrow-up {
+    position: relative;
+  }
+
+.c-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+#btn-back-to-top {
+    height: 80px;
+    width: 80px;
+    display: block;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 1.4rem;
+  }
+
+footer {
+    min-height: 12vh;
+
+}
+
+.fonts {
+    font-size: 30px;
+    text-align: center;
+
+}
+
