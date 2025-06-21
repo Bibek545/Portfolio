@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    height: auto;
+ 
 }
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
-html {
+html, body {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 #home {
@@ -16,6 +17,9 @@ html {
   height: auto;
 }
 
+#nav {
+  height: auto;
+}
 #projects {
     min-height: 50vh;
 
@@ -172,3 +176,15 @@ p { font-size: 1rem; }
   padding: 0 20px;
 }
 
+
+/* icon */
+.icon {
+  padding: 2px;
+}
+
+.navbar.sticky-top {
+  z-index: 1020;
+   position: sticky;
+  top: 0;
+  background-color: white; /* Make sure it doesn't go transparent */
+}

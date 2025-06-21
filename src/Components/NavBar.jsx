@@ -4,8 +4,8 @@ const NavBar = () => {
   return (
     <div>
           <div className="wrapper">
-              <section id="nav" className="sticky-top">
-                <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary p-10">
+              <section id="nav">
+                <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-body-tertiary p-10">
                   <div className="container-fluid p-3 bg-white">
                     <a className="navbar-brand ms-5" href="#">
                       <h1>Bibek Hamal</h1>
