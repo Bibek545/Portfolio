@@ -1,5 +1,5 @@
 import './App.css'
-import { icons } from './Components/icons';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';

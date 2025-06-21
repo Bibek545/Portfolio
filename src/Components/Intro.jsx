@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <div>
             <section id="into">
-              <div className="introduction flex-row align-items-center ">
+              <div className="introduction flex-column align-items-center ">
                 <h6>Introduction</h6>
                 <h1>About Me</h1>
                 <p className="pe-5">

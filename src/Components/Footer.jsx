@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="arrow-up">
           <button
             type="button"
-            className="btn btn-floating btn-lg rounded-pill bg-white me-auto "
+            className="btn btn-floating btn-lg rounded-pill  me-auto "
             id="btn-back-to-top"
           >
             <a className="nav-link" href="#home">

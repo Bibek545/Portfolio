@@ -1,5 +1,4 @@
 import React from 'react'
-// import { icons }  from './Icons';
 import { icons }  from './Icons';
 
 

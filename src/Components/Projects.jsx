@@ -1,6 +1,7 @@
 import React from 'react'
 import { icons }  from './Icons'
 import Title from './Title'
+import Card from './Card'
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
           <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
             {/* Project 1 */}
             <div className="col">
-              <div className="card h-100">
+              <div className="card h-100 ">
                 <img
                   src={icons.myDC}
                   className="card-img-top"
@@ -27,14 +28,20 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://digital-clock-react-rho.vercel.app/"
-                    className="btn btn-primary"
+                    className="btn btn-primary" target='_blank'
                   >
                     View Live App
                   </a>
                 </div>
               </div>
             </div>
-
+            
+             <Card 
+             image = {icons.bibek}
+             title = "My Picture"
+             description= "Hey, this is me"
+             url= ""
+             />
             {/* Project 2 */}
             <div className="col">
               <div className="card h-100">
@@ -50,7 +57,7 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://ntdl-k7lndwr9d-bibeks-projects-f59c395a.vercel.app/"
-                    className="btn btn-primary"
+                    className="btn btn-primary" target='_blank'
                   >
                     View Live App
                   </a>
@@ -74,7 +81,7 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://react-calculator-gamma-flame.vercel.app/"
-                    className="btn btn-primary"
+                    className="btn btn-primary" target='_blank'
                   >
                     View Live App
                   </a>
@@ -97,7 +104,7 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://color-picker-react-three.vercel.app/"
-                    className="btn btn-primary"
+                    className="btn btn-primary" target='_blank'
                   >
                     View Live App
                   </a>
@@ -120,7 +127,7 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://movie-world-lake.vercel.app/"
-                    className="btn btn-primary"
+                    className="btn btn-primary" target='_blank'
                   >
                     View Live App
                   </a>
@@ -139,7 +146,7 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://bibek545.github.io/quiz-app/"
-                    className="btn btn-primary"
+                    className="btn btn-primary" target='_blank'
                   >
                     View Live App
                   </a>
