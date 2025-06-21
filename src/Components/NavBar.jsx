@@ -46,11 +46,11 @@ const NavBar = () => {
                             Contacts
                           </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                           <a className="nav-link" href="#socials">
                             Socials
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
