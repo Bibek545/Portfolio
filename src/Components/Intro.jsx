@@ -38,8 +38,14 @@ const Intro = () => {
                 <button
                   type="button"
                   className="btn btn-warning mt-3 py-3 px-5 rounded-pill"
-                >
-                  Download CV
+                > 
+                <a 
+                className='download-pdf'
+                href="/bibeksresume.pdf"
+                download="Bibek_HAMAL_FULLSTACK_RESUME.pdf"> 
+                   Download CV
+                </a>
+                 
                 </button>
               </div>
               </div>

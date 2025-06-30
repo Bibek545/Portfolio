@@ -150,6 +150,14 @@ body {
 .img-icon img:hover {
   transform: scale(1.1);
 }
+.download-pdf {
+  text-decoration: none;
+  color: black;
+}
+.download-pdf:hover {
+  text-decoration: none;
+  color: white;
+}
 
 .arrow-up {
   position: relative;
