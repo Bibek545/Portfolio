@@ -1,18 +1,27 @@
 * {
-    box-sizing: border-box;
- 
+  box-sizing: border-box;
+
 }
-h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
-html, body {
-    scroll-behavior: smooth;
-    height: 100%;
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
 #home {
-    min-height: 40vh;
+  min-height: 40vh;
 }
+
 .img-fluid {
   height: auto;
 }
@@ -20,71 +29,90 @@ html, body {
 #nav {
   height: auto;
 }
+
+/* hamburger menu */
+.navbar-collapse {
+  background: rgba(255, 255, 255, 0.85);
+  /* semi-transparent white */
+  backdrop-filter: blur(6px);
+  /* glassy look */
+  padding: 1rem;
+  transition: all 0.3s ease;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+}
+
+/* hamburger menu */
+
+
 #projects {
-    min-height: 50vh;
+  min-height: 50vh;
 
 }
 
 #skills {
-    min-height: 50vh;
+  min-height: 50vh;
 
 }
-.img-icon img{
-    height: 100px;
-    width: 100px;
-    object-fit: contain;
-    transition: transform 0.3s ease;
+
+.img-icon img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
+
 /* home img bibek */
-  .custom-img {
+.custom-img {
   /* width: 100%; */
   max-width: 300px;
   height: auto;
   transition: all 0.3s ease-in-out;
-  border-bottom-left-radius:800px ;
-  border-bottom-right-radius: 800px ;
-  border-top-left-radius: 800px ;
-  border-top-right-radius:800px  ;
+  border-bottom-left-radius: 800px;
+  border-bottom-right-radius: 800px;
+  border-top-left-radius: 800px;
+  border-top-right-radius: 800px;
 
 }
+
 /* home img bibek */
 
 /* introduction */
-.introduction, #home {
-    margin:  100px 30px;
-    padding: 10px 100px 30px;
-    text-align: center;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    word-wrap: break-word;
+.introduction,
+#home {
+  margin: 100px 30px;
+  padding: 10px 100px 30px;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
 }
 
 @media (max-width: 620px) {
   .introduction {
-    padding: 20px 15px; 
+    padding: 20px 15px;
     margin: 50px 10px;
-;
+    ;
   }
 }
 
 /* home */
 
 #home {
-    margin:  100px 30px;
-    padding: 10px 100px 30px;
-    text-align: center;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    word-wrap: break-word;
+  margin: 100px 30px;
+  padding: 10px 100px 30px;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
 }
 
 @media (max-width: 620px) {
   #home {
-    padding: 20px 15px; 
+    padding: 20px 15px;
     margin: 50px 10px;
-;
+    ;
   }
 }
 
@@ -108,37 +136,37 @@ html, body {
 
 /* introduction */
 .img-icon img:hover {
-    transform: scale(1.1);
-  }
+  transform: scale(1.1);
+}
 
 .arrow-up {
-    position: relative;
-  }
+  position: relative;
+}
 
 .c-btn:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 
 #btn-back-to-top {
-    height: 80px;
-    width: 80px;
-    display: block;
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    font-size: 1.4rem;
-  }
+  height: 80px;
+  width: 80px;
+  display: block;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  font-size: 1.4rem;
+}
 
 footer {
-    min-height: 12vh;
+  min-height: 12vh;
 
 }
 
 .fonts {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 
 }
 
@@ -162,12 +190,22 @@ footer {
 }
 
 
-h1 { font-size: 2rem; }
-p { font-size: 1rem; }
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
 
 @media (max-width: 768px) {
-  h1 { font-size: 1.5rem; }
-  p { font-size: 0.9rem; }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
 }
 
 .container {
@@ -184,7 +222,8 @@ p { font-size: 1rem; }
 
 .navbar.sticky-top {
   z-index: 1020;
-   position: sticky;
+  position: sticky;
   top: 0;
-  background-color: white; /* Make sure it doesn't go transparent */
+  background-color: white;
+  /* Make sure it doesn't go transparent */
 }

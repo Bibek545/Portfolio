@@ -4,10 +4,12 @@ const Intro = () => {
   return (
     <div>
             <section id="into">
+              <div className='container'>
+                <div className="text-center">
               <div className="introduction flex-column align-items-center ">
                 <h6>Introduction</h6>
                 <h1>About Me</h1>
-                <p className="pe-5">
+                <p className="mx-auto" style = {{maxWidth: "800px"}}>
                   I am Bibek Hamal, a passionate and detail-oriented Full Stack
                   Developer specializing in the MERN stack (MongoDB, Express.js,
                   React, and Node.js). Recently graduated with a degree in Information
@@ -39,6 +41,8 @@ const Intro = () => {
                 >
                   Download CV
                 </button>
+              </div>
+              </div>
               </div>
             </section>
     </div>
