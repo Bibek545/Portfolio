@@ -13,7 +13,7 @@ const Projects = () => {
 
           <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
             {/* Project 1 */}
-            <div className="col">
+            {/* <div className="col">
               <div className="card h-100 ">
                 <img
                   src={icons.myDC}
@@ -34,16 +34,26 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
-            
+            </div> */}
+
              <Card 
+             image = {icons.myDC}
+             title = "React Digital Clock"
+             description= " Simple digital clock built with React using useEffect for real-time updates"
+             url= "https://digital-clock-react-rho.vercel.app/"
+             />
+
+            
+             {/* <Card 
              image = {icons.bibek}
              title = "My Picture"
              description= "Hey, this is me"
              url= ""
-             />
+             /> */}
+             
+        
             {/* Project 2 */}
-            <div className="col">
+            {/* <div className="col">
               <div className="card h-100">
                 <img
                   src={icons.ntdl}
@@ -63,10 +73,17 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
+             <Card 
+             image = {icons.ntdl}
+             title = " Not to do list"
+             description= " Not to do list made using HTML, CSS, JS, React, Bootstrap."
+             url= "https://ntdl-k7lndwr9d-bibeks-projects-f59c395a.vercel.app/"
+             />
+
 
             {/* Project 3 */}
-            <div className="col">
+            {/* <div className="col">
               <div className="card h-100">
                 <img
                   src={icons.calculator}
@@ -87,10 +104,17 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
+               
+                     <Card 
+             image = {icons.calculator}
+             title = "Calculator"
+             description= "  Simple calculator made using HTML, CSS, JS, Bootstrap, React."
+             url= "https://react-calculator-gamma-flame.vercel.app/"
+             />
 
             {/* Project 4 */}
-            <div className="col">
+            {/* <div className="col">
               <div className="card h-100">
                 <img
                   src={icons.colorPicker}
@@ -110,10 +134,18 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
+            
+                   <Card 
+             image = {icons.colorPicker}
+             title = "Color Selector"
+             description= " Simple color selector page made using React."
+             url= "https://color-picker-react-three.vercel.app/"
+             />
+
 
             {/* Project 5 */}
-            <div className="col">
+            {/* <div className="col">
               <div className="card h-100">
                 <img
                   src={icons.movieWorld}
@@ -133,10 +165,19 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+
+                   <Card 
+             image = {icons.movieWorld}
+             title = "Movie World"
+             description= "Simple movie browsing website built with React and OMDB API."
+             url= "https://movie-world-lake.vercel.app/"
+             />
+
 
             {/* Project 6 */}
-            <div className="col">
+            {/* <div className="col">
               <div className="card h-100">
                 <img src={icons.quiz} className="card-img-top" alt="Quiz App" />
                 <div className="card-body">
@@ -152,7 +193,16 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+
+                   <Card 
+             image = {icons.quiz}
+             title = "Quiz Game"
+             description="A simple quiz game made using HTML, CSS, JS."
+             url= "https://bibek545.github.io/quiz-app/"
+             />
+
           </div>
         </div>
       </section>
