@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div>
-            <section id="into">
+            <section id="intro">
               <div className='container'>
                 <div className="text-center">
               <div className="introduction flex-column align-items-center ">

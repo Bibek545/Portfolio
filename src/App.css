@@ -43,7 +43,19 @@ body {
 
 /* hamburger menu */
 
+#intro {
+  background-color: #fff1f2;
+}
 
+#contact {
+  background-color: #fff1f2;
+}
+#skills {
+  background-color: #fef9f4;
+}
+#footer {
+  background-color: #f4f4f4;
+}
 #projects {
   min-height: 50vh;
 
