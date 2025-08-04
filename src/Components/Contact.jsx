@@ -14,7 +14,7 @@ const Contact = () => {
 
           <div className="row justify-content-center align-items-start">
             {/* Left Column - Contact Info */}
-            <div className="col-md-5 mb-4">
+            {/* <div className=" card contact-card p-5 mt-5 shadow-lg mb-5 col-md-4">
               <p>
                 <strong>Location:</strong> Lidcombe, 2141, Australia
               </p>
@@ -24,10 +24,10 @@ const Contact = () => {
               <p>
                 <strong>Email:</strong> fullstackBibek@gmail.com
               </p>
-            </div>
+            </div> */}
 
             {/* Right Column - Contact Form */}
-            <div className="col-md-7">
+            <div className="card p-5 mt-5 shadow-lg mb-5 col-md-6">
               <form>
                 <div className="mb-3">
                   <input
