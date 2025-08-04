@@ -42,7 +42,7 @@ const Intro = () => {
                 <a 
                 className='download-pdf'
                 href="/bibeksresume.pdf"
-                download="Bibek_HAMAL_FULLSTACK_RESUME.pdf"> 
+                download="Bibek HAMAL-software-developer.pdf"> 
                    Download CV
                 </a>
                  
