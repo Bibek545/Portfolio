@@ -18,10 +18,10 @@ const Footer = () => {
 
         <footer id="footer">
           <div className="fonts pt-3">
-            <a href="https://github.com/Bibek545">
+            <a href="https://www.linkedin.com/in/bibek-hamal-b231291a4/">
               <i className="icon fa-brands fa-linkedin fa-lg "></i>
             </a>
-            <a href="https://www.linkedin.com/in/bibek-hamal-b231291a4/">
+            <a href="https://github.com/Bibek545">
               <i className="icon fa-brands fa-github"></i>
             </a>
 
