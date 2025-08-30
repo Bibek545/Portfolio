@@ -1,55 +1,51 @@
-import './App.css'
+import "./App.css";
+import NavBar from "./Components/NavBar";
+import Home from "./Components/Home";
+import Intro from "./Components/Intro";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import AnimationSection from "./Components/AnimationSection";
+import BackToTop from "./Components/BackToTop";
 
-import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from './Components/NavBar';
-import Home from './Components/Home';
-import Intro from './Components/Intro';
-import Projects from './Components/Projects';
-import Skills from './Components/Skills';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
-import AnimationSection from './Components/AnimationSection';
-
-
-function App() {
-
-
+export default function App() {
   return (
-    <>
-       <NavBar />
-      <hr />
+    <div className="bg-white text-black">
+      <NavBar />
 
-      {/* <!-- This is home section  --> */}
-       <AnimationSection> 
-       <Home />
-       </AnimationSection>
-      {/* <!-- This is my introduction section --> */}
+      {/* If your NavBar is fixed, keep a spacer. Remove if not fixed. */}
+      {/* <div className="h-16" /> */}
 
-      <AnimationSection>
-       <Intro />
-       </AnimationSection>
-      {/* <!-- This is my project section --> */}
-      <AnimationSection>
-      <Projects/>
-      </AnimationSection>
+      <main className="space-y-20">
+        {/* Home */}
+        <AnimationSection>
+          <Home />
+        </AnimationSection>
 
-      {/* <!-- This is my skill section --> */}
-       <AnimationSection> 
-       <Skills />
-       </AnimationSection>
+        {/* Intro */}
+        {/* <AnimationSection>
+          <Intro />
+        </AnimationSection> */}
 
-      <section></section>
-      {/* <!-- contact section starts --> */}
-      <AnimationSection>
-       <Contact />
-      </AnimationSection>
-      
-      {/* <!-- contact section ends here --> */}
+        {/* Projects */}
+        <AnimationSection>
+          <Projects />
+        </AnimationSection>
 
-      {/* <!-- now we will make back to top button when user click on it it will be redirected to top page  --> */}
-       <Footer/>
-    </>
+        {/* Skills */}
+        <AnimationSection>
+          <Skills />
+        </AnimationSection>
+
+        {/* Contact */}
+        <AnimationSection>
+          <Contact />
+        </AnimationSection>
+      </main>
+
+      <Footer />
+       <BackToTop threshold={300} />
+    </div>
   );
-};
-
-export default App;
+}

@@ -1,64 +1,86 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 
-const NavBar = () => {
+const LINKS = [
+  { id: "home", label: "Home" },
+  { id: "intro", label: "About Me" },
+  { id: "projects", label: "Projects" },
+  { id: "contact", label: "Contact" },
+];
+
+export default function NavBar() {
+  const [active, setActive] = useState("home");
+
+  useEffect(() => {
+    const ids = LINKS.map((l) => l.id);
+    const els = ids.map((id) => document.getElementById(id)).filter(Boolean);
+    if (!els.length) return;
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) setActive(e.target.id);
+        });
+      },
+      { rootMargin: "-30% 0px -60% 0px", threshold: 0.1 }
+    );
+
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
+
+  const go = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
-    <div>
-          <div className="wrapper">
-              <section id="nav">
-                <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-body-tertiary p-10">
-                  <div className="container-fluid p-3 bg-white">
-                    <a className="navbar-brand ms-5" href="#">
-                      <h1>Bibek Hamal</h1>
-                    </a>
-                    <button
-                      className="navbar-toggler"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#navbarSupportedContent"
-                      aria-controls="navbarSupportedContent"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                      className="collapse navbar-collapse"
-                      id="navbarSupportedContent"
-                    >
-                      <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
-                        <li className="nav-item me">
-                          <a className="nav-link active" aria-current="page" href="#">
-                            Home
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="#projects">
-                            Projects
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="#skills">
-                            Skills
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a className="nav-link" href="#contact">
-                            Contacts
-                          </a>
-                        </li>
-                        {/* <li className="nav-item">
-                          <a className="nav-link" href="#socials">
-                            Socials
-                          </a>
-                        </li> */}
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-              </section>
-            </div>
-    </div>
-  )
-}
+    <div className="fixed top-4 left-0 right-0 z-50">
+      <div className="grid grid-cols-3 items-center">
+        {/* Left: name pill */}
+        <div className="flex justify-start pl-6">
+          <button
+            onClick={() => go("home")}
+            className="pointer-events-auto rounded-full border border-black/10 bg-white/90 shadow-md backdrop-blur px-5 py-2 font-bold text-black hover:text-black/70 transition"
+          >
+            Bibek Hamal
+          </button>
+        </div>
 
-export default NavBar
+        {/* Center: nav pill */}
+        <div className="flex justify-center">
+          <nav
+            className="pointer-events-auto rounded-full border border-black/10 bg-white/90 shadow-md backdrop-blur px-6"
+            aria-label="Primary"
+          >
+            <ul className="flex items-center gap-6 py-2">
+              {LINKS.map((l) => {
+                const isActive = active === l.id;
+                return (
+                  <li key={l.id} className="relative">
+                    <button
+                      onClick={() => go(l.id)}
+                      className={[
+                        "px-2 text-sm sm:text-base font-medium transition-colors",
+                        isActive ? "text-black" : "text-black/70 hover:text-black",
+                      ].join(" ")}
+                    >
+                      {l.label}
+                    </button>
+                    {isActive && (
+                      <span
+                        className="absolute left-1/2 -bottom-1 h-[3px] w-6 -translate-x-1/2 rounded-full bg-black"
+                        aria-hidden="true"
+                      />
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        </div>
+
+        {/* Right: empty for now */}
+        <div />
+      </div>
+    </div>
+  );
+}

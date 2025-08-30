@@ -15,6 +15,13 @@ import ntdl from '../assets/NTDL.png';
 import quiz from '../assets/Quiz.png';
 import reactS from '../assets/REACT.png';
 import vsCode from '../assets/vsCode.png';
+import ecommerceAdmin from '../assets/ecommerceAdmin.png';
+import ecommerceClient from '../assets/ecommerceClient.png';
+import s3 from '../assets/s3.png';
+import elasticBeanstalk from '../assets/elasticBeanstalk.png';
+import versionControl from '../assets/versionControl.png';
+import codePipeline from '../assets/codePipelines.png'
 
 
-export const icons = {bibek, calculator, colorPicker, css, express, github, html, java, javascript, mongodb, movieWorld, myDC, nodes, ntdl, quiz, reactS, vsCode};
+
+export const icons = {bibek, calculator, colorPicker, css, express, github, html, java, javascript, mongodb, movieWorld, myDC, nodes, ntdl, quiz, reactS, vsCode, ecommerceAdmin, ecommerceClient, codePipeline, versionControl, elasticBeanstalk, s3 };
