@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <section id="home" className="bg-white text-black">
-      <div className="mx-auto max-w-7xl px-6 pt-24 pb-16 md:pt-28 md:pb-20">
+      <div className="mx-auto max-w-7xl px-6 pt-24 pb-16 md:pt-32 scroll-mt-24">
         <div className="grid md:grid-cols-2 lg:grid-cols-[1fr,1.25fr] gap-x-12 lg:gap-x-20 gap-y-10 items-center">
           {/* Photo */}
           <div className="w-full max-w-sm aspect-[3/4] overflow-hidden rounded-2xl shadow-lg border-2 border-transparent hover:border-black transition duration-300">
@@ -72,9 +72,18 @@ export default function Home() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <button className="h-11 px-6 rounded-full bg-black text-white font-medium hover:opacity-90 transition">
+              <button
+                onClick={() =>
+                  document.getElementById("projects")?.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  })
+                }
+                className="h-11 px-6 rounded-full bg-black text-white font-medium hover:opacity-90 transition"
+              >
                 Explore My Work →
               </button>
+
               <a
                 href="/Bibek_Hamal_Resume.pdf"
                 download
