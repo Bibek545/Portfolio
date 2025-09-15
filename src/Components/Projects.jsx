@@ -19,6 +19,24 @@ function useItemsPerPage() {
 export default function Projects() {
   // ===== Featured / Full-Stack =====
   const fullstackProjects = [
+      {
+    image: icons.thpClient,
+    title: "The Hidden Pour",
+    description:
+      "Modern restaurant website with menus, events, membership, and careers. Responsive UI, smooth navigation, and scalable architecture.",
+    url: "http://thp-client-fe-bucket.s3-website-ap-southeast-2.amazonaws.com/",
+    github: "https://github.com/Bibek545/mybar-fe",
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "AWS S3", "CodePipeline"],
+  },
+  {
+    image: icons.thpAdmin,
+    title: "The Hidden Pour Admin Dashboard",
+    description:
+      "Admin dashboard for The Hidden Pour — manage bookings, authentication (JWT), and a clean Bootstrap UI. Features include real-time booking details, approving/declining requests, and secure admin login.",
+    url: "http://thp-admin-fe-bucket.s3-website-ap-southeast-2.amazonaws.com/login",
+    github: "https://github.com/Bibek545/mybar-fe", // replace if backend repo differs
+    tech: ["MERN", "JWT", "Bootstrap", "React", "Node.js", "Express", "MongoDB"],
+  },
     {
       image: icons.ecommerceClient,
       title: "B&M TechStore",

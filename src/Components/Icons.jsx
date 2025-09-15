@@ -21,7 +21,9 @@ import s3 from '../assets/s3.png';
 import elasticBeanstalk from '../assets/elasticBeanstalk.png';
 import versionControl from '../assets/versionControl.png';
 import codePipeline from '../assets/codePipelines.png'
+import thpClient from "../assets/thpClient.png";
+import thpAdmin from "../assets/thpAdmin.png";
 
 
 
-export const icons = {bibek, calculator, colorPicker, css, express, github, html, java, javascript, mongodb, movieWorld, myDC, nodes, ntdl, quiz, reactS, vsCode, ecommerceAdmin, ecommerceClient, codePipeline, versionControl, elasticBeanstalk, s3 };
+export const icons = {bibek, calculator, colorPicker, css, express, github, html, java, javascript, mongodb, movieWorld, myDC, nodes, ntdl, quiz, reactS, vsCode, ecommerceAdmin, ecommerceClient, codePipeline, versionControl, elasticBeanstalk, s3, thpClient, thpAdmin };
