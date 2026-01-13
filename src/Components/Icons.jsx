@@ -23,7 +23,8 @@ import versionControl from '../assets/versionControl.png';
 import codePipeline from '../assets/codePipelines.png'
 import thpClient from "../assets/thpClient.png";
 import thpAdmin from "../assets/thpAdmin.png";
+import LMS from "../assets/LMShome.png";
 
 
 
-export const icons = {bibek, calculator, colorPicker, css, express, github, html, java, javascript, mongodb, movieWorld, myDC, nodes, ntdl, quiz, reactS, vsCode, ecommerceAdmin, ecommerceClient, codePipeline, versionControl, elasticBeanstalk, s3, thpClient, thpAdmin };
+export const icons = {bibek, calculator, colorPicker, css, express, github, html, java, javascript, mongodb, movieWorld, myDC, nodes, ntdl, quiz, reactS, vsCode, ecommerceAdmin, ecommerceClient, codePipeline, versionControl, elasticBeanstalk, s3, thpClient, thpAdmin, LMS };
