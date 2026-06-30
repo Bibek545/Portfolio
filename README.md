@@ -17,7 +17,6 @@ This is my personal **portfolio website** built using **HTML**, **CSS**, and **J
 - HTML5  
 - CSS3  
 - JavaScript  
-- [Bootstrap](https://getbootstrap.com/) *(if you used it)*
 
 ## 🎯 Goal
 
