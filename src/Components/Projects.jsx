@@ -30,6 +30,16 @@ export default function Projects() {
   /* ===== Featured / Full-Stack ===== */
   const fullstackProjects = [
     {
+      image: icons.jbTracker,
+      title: "Job-Tracker",
+      desceription: "Created a job-tracking app for self learning."
+      url: "https://job-tracker-jet-six.vercel.app/home",
+      github: "https://github.com/Bibek545/Job-tracker",
+      tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+
+
+    },
+    {
       image: icons.thpClient,
       title: "The Hidden Pour",
       description:
