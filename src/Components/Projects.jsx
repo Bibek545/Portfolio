@@ -33,7 +33,7 @@ export default function Projects() {
       image: icons.jbTracker,
       title: "Job-Tracker",
       desceription: "Created a job-tracking app for self learning.",
-      url: "https://job-tracker-jet-six.vercel.app/home",
+      url: "https://job-tracker-jet-six.vercel.app/",
       github: "https://github.com/Bibek545/Job-tracker",
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
 
