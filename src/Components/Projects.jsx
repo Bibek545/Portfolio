@@ -79,24 +79,24 @@ export default function Projects() {
       github: "https://github.com/Bibek545/mybar-fe",
       tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "AWS S3", "CodePipeline"],
     },
-    {
-      image: icons.ecommerceClient,
-      title: "B&M TechStore",
-      description:
-        "Full-featured online shopping platform with authentication, product catalog, shopping cart, and secure Stripe payments. Deployed via AWS S3 + CodePipeline.",
-      url: "http://ecommerce-client-fe-global-bucket.s3-website-ap-southeast-2.amazonaws.com/",
-      github: "https://github.com/Bibek545/ecommerce_FE",
-      tech: ["MERN", "JWT", "Redux", "Stripe", "AWS S3", "CodePipeline", "Email Integration"],
-    },
-    {
-      image: icons.ecommerceAdmin,
-      title: "E-commerce Admin CMS",
-      description:
-        "Comprehensive admin dashboard to manage products, orders, customers, inventory, and sales analytics. Deployed with AWS (EC2, Lambda, CodePipeline).",
-      url: "http://ecommerce-global-bucket.s3-website-ap-southeast-2.amazonaws.com/",
-      github: "https://github.com/Bibek545/ecommerce-admin-be",
-      tech: ["React", "Node.js", "Express", "MongoDB", "Chart.js", "AWS EC2", "Lambda", "CodePipeline"],
-    },
+    // {
+    //   image: icons.ecommerceClient,
+    //   title: "B&M TechStore",
+    //   description:
+    //     "Full-featured online shopping platform with authentication, product catalog, shopping cart, and secure Stripe payments. Deployed via AWS S3 + CodePipeline.",
+    //   url: "http://ecommerce-client-fe-global-bucket.s3-website-ap-southeast-2.amazonaws.com/",
+    //   github: "https://github.com/Bibek545/ecommerce_FE",
+    //   tech: ["MERN", "JWT", "Redux", "Stripe", "AWS S3", "CodePipeline", "Email Integration"],
+    // },
+    // {
+    //   image: icons.ecommerceAdmin,
+    //   title: "E-commerce Admin CMS",
+    //   description:
+    //     "Comprehensive admin dashboard to manage products, orders, customers, inventory, and sales analytics. Deployed with AWS (EC2, Lambda, CodePipeline).",
+    //   url: "http://ecommerce-global-bucket.s3-website-ap-southeast-2.amazonaws.com/",
+    //   github: "https://github.com/Bibek545/ecommerce-admin-be",
+    //   tech: ["React", "Node.js", "Express", "MongoDB", "Chart.js", "AWS EC2", "Lambda", "CodePipeline"],
+    // },
   ];
 
   /* ===== Practice / Mini ===== */
